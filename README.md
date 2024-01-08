@@ -17,8 +17,8 @@ Reproduction of MobileSAM using pytorch ([our reimplemented MobileSAM model weig
 ### Clone the Repository:
 
 ```
-git clone --recursive https://github.com/YuYue525/MobileSAM-distiller.git
-cd MobileSAM-distiller
+git clone --recursive https://github.com/YuYue525/MobileSAM-pytorch.git
+cd MobileSAM-pytorch
 mv *.py ./MobileSAM
 cd MobileSAM; pip install -e .
 ```
