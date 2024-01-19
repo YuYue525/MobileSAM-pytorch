@@ -76,6 +76,13 @@ def build_model():
                 local_conv_size=3,
                 layer_lr_decay=0.8
             )
+    
+    ## load pretrained TinyViT weights, from https://github.com/wkcn/TinyViT?tab=readme-ov-file
+    # pretrained_weights = torch.load("path_to_pth")["model"]
+    # del pretrained_weights["head.weight"]
+    # del pretrained_weights["head.bias"]
+    # model.load_state_dict(pretrained_weights, strict=False)
+    
     return model
 
 def get_optimizer(args, model):
