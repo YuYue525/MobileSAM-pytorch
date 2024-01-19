@@ -77,7 +77,7 @@ def build_model():
                 layer_lr_decay=0.8
             )
     
-    ## load pretrained TinyViT weights, from https://github.com/wkcn/TinyViT?tab=readme-ov-file
+    ## load pretrained TinyViT weights, please download from https://github.com/wkcn/TinyViT?tab=readme-ov-file
     # pretrained_weights = torch.load("path_to_pth")["model"]
     # del pretrained_weights["head.weight"]
     # del pretrained_weights["head.bias"]
